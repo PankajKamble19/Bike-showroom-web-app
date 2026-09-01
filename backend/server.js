@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/api/auth",    require("./routes/authRoutes"));
-app.use("/api/bikes",   require("./routes/bikeRoutes"));
+app.use("/api/bikes",   require("./routes/BikeRoutes"));
 app.use("/api/inquiries", require("./routes/inquiryRoutes"));
 app.use("/api/accessories",  require("./routes/accessoryRoutes"));
 app.use("/api/testimonials", require("./routes/testimonialRoutes"));
